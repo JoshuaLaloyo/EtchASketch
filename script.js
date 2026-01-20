@@ -16,7 +16,7 @@ div.style.display = `flex`;
 div.style.flexWrap = `wrap`;
 div.style.gap = `0px`;
 div.style.justifyContent = `flex-start`;
-for (let i=0; i<16**2; i++){
+for (let i=0; i<16*16; i++){
 let div2 = document.createElement(`div`);
 div.append(div2)
 div2.style.border = `solid 1px`;
